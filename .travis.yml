@@ -1,0 +1,30 @@
+language: minimal
+#before_install:
+#  - chmod +x gradlew
+#jdk:
+#  - openjdk8
+install:
+  # `awscli` is required for invalidation of CloudFront distributions.
+  - pip install --user awscli
+#script:
+#  - ./tools/gradlew shadowJar bootJar
+deploy:
+  # move everything from this project into the s3 bucket
+  provider: s3
+  access_key_id: $AWS_ACCESS_ID
+  secret_access_key: $AWS_SECRET_ID
+  bucket: fourfold.co.uk
+  acl: public_read
+  skip_cleanup: true
+  region: eu-west-2
+  # set cache to 1 year - the invalidation below will override this for index and snippets
+  # cache_control: "max-age=31536000"
+  on:
+    repo: matbroughty/fffc
+after_deploy:
+  - aws configure set aws_access_key_id $AWS_ACCESS_ID
+  - aws configure set aws_secret_access_key $AWS_SECRET_ID
+  # Allow `awscli` to make requests to CloudFront.
+  - aws configure set preview.cloudfront true
+  # Invalidate every object in the targeted distribution.
+  - aws cloudfront create-invalidation --distribution-id E1LNB25U119JXK --paths "/index.html" "/snippets*" "/pages/*"
