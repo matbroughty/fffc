@@ -63,8 +63,8 @@
         <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
             <div class="icon"><i class="icofont-crown-king"></i></div>
-            <h4 class="title">paulS</h4>
-            <p class="description">20.93</p>
+            <h4 class="title">${totals[0].first}</h4>
+            <p class="description">${totals[0].second}</p>
           </div>
         </div>
       </div>
@@ -72,8 +72,8 @@
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
             <div class="icon"><i class="icofont-rhino"></i></div>
-            <h4 class="title">taz</h4>
-            <p class="description">0</p>
+            <h4 class="title">${totals[1].first}</h4>
+            <p class="description">${totals[1].second}</p>
           </div>
         </div>
       </div>
@@ -82,22 +82,22 @@
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
             <div class="icon"><i class="icofont-owl"></i></div>
-            <h4 class="title">paulV</h4>
-            <p class="description">0</p>
+            <h4 class="title">${totals[2].first}</h4>
+            <p class="description">${totals[2].second}</p>
           </div>
         </div>
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
             <div class="icon"><i class="icofont-frog"></i></div>
-            <h4 class="title">dan</h4>
-            <p class="description">0</p>
+            <h4 class="title">${totals[3].first}</h4>
+            <p class="description">${totals[3].second}</p>
           </div>
         </div>
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
             <div class="icon"><i class="icofont-donut"></i></div>
-            <h4 class="title">mat</h4>
-            <p class="description">0</p>
+            <h4 class="title">${totals[4].first}</h4>
+            <p class="description">${totals[4].second}</p>
           </div>
         </div>
       </div>
@@ -125,16 +125,20 @@
         </thead>
         <tbody>
 
+        <#assign count = 1>
 
+        <#list rounds as round>
           <tr>
-            <th scope="row">Round 1</th>
-            <td>0</td>
-            <td>0</td>
-            <td>20.93</td>
-            <td>0</td>
-            <td>0</td>
+            <th scope="row">Round ${count}</th>
+            <td>${round.dan}</td>
+            <td>${round.mat}</td>
+            <td>${round.paulS}</td>
+            <td>${round.paulV}</td>
+            <td>${round.taz}</td>
           </tr>
 
+          <#assign count = count + 1>
+        </#list>
         </tbody>
       </table>
 
