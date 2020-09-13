@@ -5,7 +5,7 @@ import org.broughty.fffc.parser.model.FourFold
 import org.slf4j.LoggerFactory
 import java.io.*
 
-class FourFoldFilesCreator{
+class FourFoldFilesCreator {
 
   inline fun <reified T :FourFold> createFiles(dataFileName: String = "", inputStream: InputStream? = null, writeToFile: Boolean = true, htmlFileName: String, templateName : String): String {
     val logger = LoggerFactory.getLogger(javaClass)
