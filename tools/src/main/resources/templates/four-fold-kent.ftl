@@ -30,6 +30,18 @@
         content="https://images.unsplash.com/photo-1521019338804-f9544ddb91d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
   <meta property="og:type" content="website"/>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165104432-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165104432-3');
+  </script>
+
+
+
 
 </head>
 
@@ -71,7 +83,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
-            <div class="icon"><i class="icofont-rhino"></i></div>
+            <div class="icon"><i class="icofont-queen"></i></div>
             <h4 class="title">${totals[1].first}</h4>
             <p class="description">${totals[1].second}</p>
           </div>
@@ -81,21 +93,21 @@
 
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
-            <div class="icon"><i class="icofont-owl"></i></div>
+            <div class="icon"><i class="icofont-baby"></i></div>
             <h4 class="title">${totals[2].first}</h4>
             <p class="description">${totals[2].second}</p>
           </div>
         </div>
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
-            <div class="icon"><i class="icofont-frog"></i></div>
+            <div class="icon"><i class="icofont-danger-zone"></i></div>
             <h4 class="title">${totals[3].first}</h4>
             <p class="description">${totals[3].second}</p>
           </div>
         </div>
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
-            <div class="icon"><i class="icofont-donut"></i></div>
+            <div class="icon"><i class="icofont-trash"></i></div>
             <h4 class="title">${totals[4].first}</h4>
             <p class="description">${totals[4].second}</p>
           </div>

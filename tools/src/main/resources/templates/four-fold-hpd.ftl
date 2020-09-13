@@ -71,21 +71,21 @@
       <div class="row justify-content-center">
         <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
-            <div class="icon"><i class="icofont-bear"></i></div>
+            <div class="icon"><i class="icofont-crown-queen"></i></div>
             <h4 class="title">${totals[1].first}</h4>
             <p class="description">${totals[1].second}</p>
           </div>
         </div>
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
-            <div class="icon"><i class="icofont-cow"></i></div>
+            <div class="icon"><i class="icofont-danger-zone"></i></div>
             <h4 class="title">${totals[2].first}</h4>
             <p class="description">${totals[2].second}</p>
           </div>
         </div>
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="icon-box">
-            <div class="icon"><i class="icofont-donut"></i></div>
+            <div class="icon"><i class="icofont-trash"></i></div>
             <h4 class="title">${totals[3].first}</h4>
             <p class="description">${totals[3].second}</p>
           </div>
