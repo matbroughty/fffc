@@ -31,13 +31,13 @@
   <meta property="og:type" content="website"/>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165104432-3"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30056421-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-165104432-3');
+    gtag('config', 'UA-30056421-2');
   </script>
 
 
