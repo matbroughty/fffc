@@ -5,9 +5,7 @@ import com.amazonaws.services.s3.AmazonS3Client
 import com.amazonaws.services.s3.AmazonS3ClientBuilder
 import com.amazonaws.services.s3.model.GetObjectRequest
 import com.amazonaws.services.s3.model.ObjectMetadata
-import org.broughty.fffc.parser.FOUR_FOLD_HPD_FTL
-import org.broughty.fffc.parser.FOUR_FOLD_KENT_FTL
-import org.broughty.fffc.parser.FourFoldFilesCreator
+import org.broughty.fffc.parser.*
 import org.broughty.fffc.parser.model.FourFoldHpd
 import org.broughty.fffc.parser.model.FourFoldKent
 import java.io.InputStream
@@ -18,8 +16,8 @@ class S3HtmlGenerator {
 
   fun generate(bucketName: String = "fourfold.co.uk",
                hpdFourFoldData: String = "data/hpd.csv",
-               kentFourFoldData: String = "data/kent.csv"
-               //premKillerData: String = "data/killer.csv"
+               kentFourFoldData: String = "data/kent.csv",
+               premKillerData: String = "data/killer.csv"
   ): String {
     print("bucket = $bucketName and file = $hpdFourFoldData")
     val s3Client = AmazonS3ClientBuilder.defaultClient() as AmazonS3Client
@@ -34,16 +32,23 @@ class S3HtmlGenerator {
     val kentFourFoldDataStream: InputStream = s3ObjectKent.objectContent
 
 
+    println("Getting $premKillerData from bucket $bucketName")
+    val s3ObjectKiller = s3Client.getObject(GetObjectRequest(bucketName, premKillerData))
+    println("Object for $premKillerData from bucket $bucketName is $s3ObjectKiller")
+    val hpdKillerDataStream: InputStream = s3ObjectKiller.objectContent
+
 
     val hpdHtml = FourFoldFilesCreator().createFiles<FourFoldHpd>(inputStream = hpdFourFoldDataStream, dataFileName = "data/hpd.csv", htmlFileName = "hpd.html", templateName = FOUR_FOLD_HPD_FTL, writeToFile = false)
     val kentHtml = FourFoldFilesCreator().createFiles<FourFoldKent>(inputStream = kentFourFoldDataStream, dataFileName = "data/kent.csv", htmlFileName = "index.html", templateName = FOUR_FOLD_KENT_FTL, writeToFile = false)
+    val hpdKillerHtml = KillerFileCreator().createFile(inputStream = hpdKillerDataStream, dataFileName = "data/killer.csv", htmlFileName = "killer.html", templateName = KILLER_HPD_FTL, writeToFile = false)
+
 
     val hpdFourFoldMsg = createHtmlFile(hpdHtml, bucketName, s3Client, kentFourFoldData, "hpd.html")
     val kentFourFoldMsg = createHtmlFile(kentHtml, bucketName, s3Client, kentFourFoldData, "index.html")
-    //val bookReviewMsg = createHtmlFile(BookReviewFileCreator(), bucketName, s3Client, srcKeyBookReviews, "prem-killer.html")
+    val killerMsg = createHtmlFile(hpdKillerHtml, bucketName, s3Client, premKillerData, "killer.html")
 
 
-    return "Ok: hpdFourFold **** + $hpdFourFoldMsg kentFourFold **** $kentFourFoldMsg : Generated time is :${LocalDateTime.now()} "
+    return "Ok: hpdFourFold **** + $hpdFourFoldMsg kentFourFold **** $kentFourFoldMsg hpdKiller **** + $killerMsg : Generated time is :${LocalDateTime.now()} "
   }
 
 
