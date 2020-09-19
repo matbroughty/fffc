@@ -25,7 +25,7 @@
 
   <meta property="og:site_name" content="Premiership Killer">
   <meta property="og:title" content="Prem Killer 2020/21"/>
-  <meta property="og:description" content="Four Fold Competition"/>
+  <meta property="og:description" content="Prem Killer Competition"/>
   <meta property="og:image" itemprop="image"
         content="https://images.unsplash.com/photo-1521019338804-f9544ddb91d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
   <meta property="og:type" content="website"/>
