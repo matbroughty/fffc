@@ -8,7 +8,7 @@ import java.util.*
 
 const val FOUR_FOLD_KENT_FTL = "four-fold-kent.ftl"
 const val FOUR_FOLD_HPD_FTL = "four-fold-hpd.ftl"
-
+const val KILLER_HPD_FTL = "killer-hpd.ftl"
 
 /**
  * Any methods handy for using the templates*.ftl files
