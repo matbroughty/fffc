@@ -79,96 +79,97 @@
   <section id="results" class="results">
 
     <div class="container">
-
-      <table class="table table-striped table-dark">
-        <thead>
-        <tr>
-          <th scope="col">Game 1</th>
-          <th scope="col">Mat</th>
-          <th scope="col">Jase</th>
-          <th scope="col">Pia</th>
-          <th scope="col">Callum</th>
-          <th scope="col">Jon</th>
-          <th scope="col">Frank</th>
-          <th scope="col">Dave</th>
-          <th scope="col">Tim</th>
-        </tr>
-        </thead>
-        <tbody>
-
-        <#assign count = 1>
-        <#list rounds as round>
+      <div class="table-responsive">
+        <table class="table table-striped table-dark">
+          <thead>
           <tr>
-            <th scope="row">Round ${count}</th>
-
-            <#if round.mat == "?">
-              <td><i class="icofont-question-circle"></i></td>
-            <#elseif round.mat?lower_case == "x">
-              <td><i class="icofont-skull-face"></i></td>
-            <#else>
-              <td>${round.mat}</td>
-            </#if>
-
-            <#if round.jase == "?">
-              <td><i class="icofont-question-circle"></i></td>
-            <#elseif round.jase?lower_case == "x">
-              <td><i class="icofont-skull-face"></i></td>
-            <#else>
-              <td>${round.jase}</td>
-            </#if>
-
-            <#if round.pia == "?">
-              <td><i class="icofont-question-circle"></i></td>
-            <#elseif round.pia?lower_case == "x">
-              <td><i class="icofont-skull-face"></i></td>
-            <#else>
-              <td>${round.pia}</td>
-            </#if>
-
-            <#if round.callum == "?">
-              <td><i class="icofont-question-circle"></i></td>
-            <#elseif round.callum?lower_case == "x">
-              <td><i class="icofont-skull-face"></i></td>
-            <#else>
-              <td>${round.callum}</td>
-            </#if>
-
-            <#if round.jon == "?">
-              <td><i class="icofont-question-circle"></i></td>
-            <#elseif round.jon?lower_case == "x">
-              <td><i class="icofont-skull-face"></i></td>
-            <#else>
-              <td>${round.jon}</td>
-            </#if>
-
-            <#if round.frank == "?">
-              <td><i class="icofont-question-circle"></i></td>
-            <#elseif round.frank?lower_case == "x">
-              <td><i class="icofont-skull-face"></i></td>
-            <#else>
-              <td>${round.frank}</td>
-            </#if>
-
-            <#if round.dave == "?">
-              <td><i class="icofont-question-circle"></i></td>
-            <#elseif round.dave?lower_case == "x">
-              <td><i class="icofont-skull-face"></i></td>
-            <#else>
-              <td>${round.dave}</td>
-            </#if>
-
-            <#if round.tim == "?">
-              <td><i class="icofont-question-circle"></i></td>
-            <#elseif round.tim?lower_case == "x">
-              <td><i class="icofont-skull-danger"></i></td>
-            <#else>
-              <td>${round.tim}</td>
-            </#if>
+            <th scope="col">Game 1</th>
+            <th scope="col">Mat</th>
+            <th scope="col">Jase</th>
+            <th scope="col">Pia</th>
+            <th scope="col">Callum</th>
+            <th scope="col">Jon</th>
+            <th scope="col">Frank</th>
+            <th scope="col">Dave</th>
+            <th scope="col">Tim</th>
           </tr>
-          <#assign count = count + 1>
-        </#list>
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+
+          <#assign count = 1>
+          <#list rounds as round>
+            <tr>
+              <th scope="row">R ${count}</th>
+
+              <#if round.mat == "?">
+                <td><i class="icofont-question-circle"></i></td>
+              <#elseif round.mat?lower_case == "x">
+                <td><i class="icofont-skull-face"></i></td>
+              <#else>
+                <td>${round.mat}</td>
+              </#if>
+
+              <#if round.jase == "?">
+                <td><i class="icofont-question-circle"></i></td>
+              <#elseif round.jase?lower_case == "x">
+                <td><i class="icofont-skull-face"></i></td>
+              <#else>
+                <td>${round.jase}</td>
+              </#if>
+
+              <#if round.pia == "?">
+                <td><i class="icofont-question-circle"></i></td>
+              <#elseif round.pia?lower_case == "x">
+                <td><i class="icofont-skull-face"></i></td>
+              <#else>
+                <td>${round.pia}</td>
+              </#if>
+
+              <#if round.callum == "?">
+                <td><i class="icofont-question-circle"></i></td>
+              <#elseif round.callum?lower_case == "x">
+                <td><i class="icofont-skull-face"></i></td>
+              <#else>
+                <td>${round.callum}</td>
+              </#if>
+
+              <#if round.jon == "?">
+                <td><i class="icofont-question-circle"></i></td>
+              <#elseif round.jon?lower_case == "x">
+                <td><i class="icofont-skull-face"></i></td>
+              <#else>
+                <td>${round.jon}</td>
+              </#if>
+
+              <#if round.frank == "?">
+                <td><i class="icofont-question-circle"></i></td>
+              <#elseif round.frank?lower_case == "x">
+                <td><i class="icofont-skull-face"></i></td>
+              <#else>
+                <td>${round.frank}</td>
+              </#if>
+
+              <#if round.dave == "?">
+                <td><i class="icofont-question-circle"></i></td>
+              <#elseif round.dave?lower_case == "x">
+                <td><i class="icofont-skull-face"></i></td>
+              <#else>
+                <td>${round.dave}</td>
+              </#if>
+
+              <#if round.tim == "?">
+                <td><i class="icofont-question-circle"></i></td>
+              <#elseif round.tim?lower_case == "x">
+                <td><i class="icofont-skull-danger"></i></td>
+              <#else>
+                <td>${round.tim}</td>
+              </#if>
+            </tr>
+            <#assign count = count + 1>
+          </#list>
+          </tbody>
+        </table>
+      </div>
     </div>
   </section>
 
