@@ -104,7 +104,7 @@
               <#if round.mat == "?">
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.mat?lower_case == "x">
-                <td><i class="icofont-skull-face"></i></td>
+                <td><i class="icofont-pistol"></i></td>
               <#else>
                 <td>${round.mat}</td>
               </#if>
@@ -112,7 +112,7 @@
               <#if round.jase == "?">
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.jase?lower_case == "x">
-                <td><i class="icofont-skull-face"></i></td>
+                <td><i class="icofont-pistol"></i></td>
               <#else>
                 <td>${round.jase}</td>
               </#if>
@@ -120,7 +120,7 @@
               <#if round.pia == "?">
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.pia?lower_case == "x">
-                <td><i class="icofont-skull-face"></i></td>
+                <td><i class="icofont-pistol"></i></td>
               <#else>
                 <td>${round.pia}</td>
               </#if>
@@ -128,7 +128,7 @@
               <#if round.callum == "?">
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.callum?lower_case == "x">
-                <td><i class="icofont-skull-face"></i></td>
+                <td><i class="icofont-pistol"></i></td>
               <#else>
                 <td>${round.callum}</td>
               </#if>
@@ -136,7 +136,7 @@
               <#if round.jon == "?">
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.jon?lower_case == "x">
-                <td><i class="icofont-skull-face"></i></td>
+                <td><i class="icofont-pistol"></i></td>
               <#else>
                 <td>${round.jon}</td>
               </#if>
@@ -144,7 +144,7 @@
               <#if round.frank == "?">
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.frank?lower_case == "x">
-                <td><i class="icofont-skull-face"></i></td>
+                <td><i class="icofont-pistol"></i></td>
               <#else>
                 <td>${round.frank}</td>
               </#if>
@@ -152,7 +152,7 @@
               <#if round.dave == "?">
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.dave?lower_case == "x">
-                <td><i class="icofont-skull-face"></i></td>
+                <td><i class="icofont-pistol"></i></td>
               <#else>
                 <td>${round.dave}</td>
               </#if>
