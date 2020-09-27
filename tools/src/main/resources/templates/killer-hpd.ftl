@@ -105,6 +105,8 @@
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.mat?lower_case == "x">
                 <td><i class="icofont-pistol"></i></td>
+              <#elseif round.mat?lower_case == "+">
+                <td><i class="icofont-crown-king"></i></td>
               <#else>
                 <td>${round.mat}</td>
               </#if>
@@ -113,6 +115,8 @@
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.jase?lower_case == "x">
                 <td><i class="icofont-pistol"></i></td>
+              <#elseif round.jase?lower_case == "+">
+                <td><i class="icofont-crown-king"></i></td>
               <#else>
                 <td>${round.jase}</td>
               </#if>
@@ -121,6 +125,8 @@
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.pia?lower_case == "x">
                 <td><i class="icofont-pistol"></i></td>
+              <#elseif round.pia?lower_case == "+">
+                <td><i class="icofont-crown-king"></i></td>
               <#else>
                 <td>${round.pia}</td>
               </#if>
@@ -129,6 +135,8 @@
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.callum?lower_case == "x">
                 <td><i class="icofont-pistol"></i></td>
+              <#elseif round.callum?lower_case == "+">
+                <td><i class="icofont-crown-king"></i></td>
               <#else>
                 <td>${round.callum}</td>
               </#if>
@@ -137,6 +145,8 @@
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.jon?lower_case == "x">
                 <td><i class="icofont-pistol"></i></td>
+              <#elseif round.jon?lower_case == "+">
+                <td><i class="icofont-crown-king"></i></td>
               <#else>
                 <td>${round.jon}</td>
               </#if>
@@ -145,6 +155,8 @@
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.frank?lower_case == "x">
                 <td><i class="icofont-pistol"></i></td>
+              <#elseif round.frank?lower_case == "+">
+                <td><i class="icofont-crown-king"></i></td>
               <#else>
                 <td>${round.frank}</td>
               </#if>
@@ -153,6 +165,8 @@
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.dave?lower_case == "x">
                 <td><i class="icofont-pistol"></i></td>
+              <#elseif round.dave?lower_case == "+">
+                <td><i class="icofont-crown-king"></i></td>
               <#else>
                 <td>${round.dave}</td>
               </#if>
@@ -161,6 +175,8 @@
                 <td><i class="icofont-question-circle"></i></td>
               <#elseif round.tim?lower_case == "x">
                 <td><i class="icofont-skull-danger"></i></td>
+              <#elseif round.tim?lower_case == "+">
+                <td><i class="icofont-crown-king"></i></td>
               <#else>
                 <td>${round.tim}</td>
               </#if>
