@@ -94,7 +94,7 @@
               <th scope="col">Jon</th>
               <th scope="col">Frank</th>
               <th scope="col">Dave</th>
-              <th scope="col">Tim<i class="icofont-crown-king"></i></th>
+              <th scope="col">Tim (<i class="icofont-crown-king"></i>)</th>
               <th scope="col">Jesus</th>
             </tr>
             </thead>
@@ -179,7 +179,7 @@
                 <#if round.tim == "?">
                   <td><i class="icofont-question-circle"></i></td>
                 <#elseif round.tim?lower_case == "x">
-                  <td><i class="icofont-skull-danger"></i></td>
+                  <td><i class="icofont-pistol"></i></td>
                 <#elseif round.tim?lower_case == "+">
                   <td><i class="icofont-crown-king"></i></td>
                 <#else>
@@ -189,7 +189,7 @@
                 <#if round.jesus == "?">
                   <td><i class="icofont-question-circle"></i></td>
                 <#elseif round.jesus?lower_case == "x">
-                  <td><i class="icofont-skull-danger"></i></td>
+                  <td><i class="icofont-pistol"></i></td>
                 <#elseif round.jesus?lower_case == "+">
                   <td><i class="icofont-crown-king"></i></td>
                 <#else>
