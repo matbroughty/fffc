@@ -88,7 +88,7 @@
             <tr>
               <th scope="col">Game ${comps}</th>
               <th scope="col">Mat</th>
-              <th scope="col">Jase</th>
+              <th scope="col">Jase (<i class="icofont-crown-king"></i>)</th>
               <th scope="col">Pia</th>
               <th scope="col">Callum</th>
               <th scope="col">Jon</th>
