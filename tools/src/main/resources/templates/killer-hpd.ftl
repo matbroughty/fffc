@@ -89,13 +89,14 @@
               <th scope="col">Game ${comps}</th>
               <th scope="col">Mat</th>
               <th scope="col">Jase (<i class="icofont-crown-king"></i>)</th>
-              <th scope="col">Pia</th>
+              <th scope="col">Pia (<i class="icofont-crown-king"></i>)</th>
               <th scope="col">Callum</th>
               <th scope="col">Jon</th>
               <th scope="col">Frank</th>
               <th scope="col">Dave</th>
               <th scope="col">Tim (<i class="icofont-crown-king"></i>)</th>
               <th scope="col">Jesus</th>
+              <th scope="col">Todd</th>
             </tr>
             </thead>
             <tbody>
@@ -195,6 +196,17 @@
                 <#else>
                   <td>${round.jesus}</td>
                 </#if>
+
+                <#if round.todd == "?">
+                  <td><i class="icofont-question-circle"></i></td>
+                <#elseif round.todd?lower_case == "x">
+                  <td><i class="icofont-pistol"></i></td>
+                <#elseif round.todd?lower_case == "+">
+                  <td><i class="icofont-crown-king"></i></td>
+                <#else>
+                  <td>${round.todd}</td>
+                </#if>
+
 
               </tr>
               <#assign count = count + 1>
