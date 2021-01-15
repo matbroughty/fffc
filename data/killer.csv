@@ -1,9 +1,12 @@
 Mat,Jase*,Pia*,Callum,Jon,Frank,Dave,Tim*,Jesus, Todd
+Spurs,Arsenal,?,?,?,?,?,Leeds,?,?
+---,---,---,---,---,---,---,---,---
+Mat,Jase*,Pia*,Callum,Jon,Frank,Dave,Tim*,Jesus, Todd
 Man Utd, Man City,Man Utd,Man City,Man City,Man City,Man City,Man City,Man City, Aston Villa
 Liverpool,x,Liverpool,x,x,x,x,x,x,x
 Man City,x,Man City,x,x,x,x,x,x,x
 Spurs,x,Arsenal,x,x,x,x,x,x,x
-?,x,?,x,x,x,x,x,x,x
+Arsenal,x,Spurs,x,x,x,x,x,x,x
 ---,---,---,---,---,---,---,---,---
 Mat,Jase*,Pia,Callum,Jon,Frank,Dave,Tim*,Jesus
 Liverpool,Liverpool,Liverpool,x,Spurs,Liverpool,x,Man City,x
