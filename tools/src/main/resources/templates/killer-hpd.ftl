@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Prem Killer HPD - 20/21</title>
+  <title>Prem Killer HPD - 21/22</title>
   <meta content="" name="Prem Killer Standings = HPD">
   <meta content="" name="prem, killer, broughton, hpd">
 
@@ -55,7 +55,7 @@
   <div class="container d-flex flex-column align-items-center">
 
     <h1>HPD Premiership Killer</h1>
-    <h2>2020/2021 Season</h2>
+    <h2>2021/2022 Season</h2>
 
   </div>
 </header><!-- End #header -->

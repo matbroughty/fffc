@@ -1,0 +1,53 @@
+Mat,Jase***,Pia*,Callum,Jon,Frank,Dave,Tim*,Jesus,Todd,Ash
+Man City,Man City,Chelsea,Man City,Man City,Man City,Man City,Arsenal,Man City,Man City,?
+x,x,Man Utd,x,x,x,x,Man Utd,x,x,x
+x,x,Leicester,x,x,x,x,Leicester,x,x,x
+x,x,Spurs,x,x,x,x,Chelsea,x,x,x
+x,x,Liverpool,x,x,x,x,Liverpool,x,x,x
+---,---,---,---,---,---,---,---,---,---,---
+Mat,Jase***,Pia*,Callum,Jon,Frank,Dave,Tim*,Jesus,Todd,Ash
+Arsenal,Liverpool,Liverpool,Spurs,Spurs,Liverpool,?,Arsenal,Liverpool,Leicester,?
+x,x,x,Leicester,Leicester,x,x,x,x,Everton,x
+x,x,x,Chelsea,Chelsea,x,x,x,x,x,x
+x,x,x,x,x,x,x,x,x,x,x
+---,---,---,---,---,---,---,---,---,---,---
+Mat,Jase**,Pia*,Callum,Jon,Frank,Dave,Tim*,Jesus,Todd,Ash
+Man City,Sheffield Utd,Man City,Man City,Man City,Liverpool,Liverpool,Liverpool,Man Utd,Man Utd,Sheffield United
+Spurs,Spurs,West Ham,Spurs,Spurs,x,x,x,Spurs,West Ham,West Ham
+Chelsea,Chelsea,x,Man Utd,Sheffield Utd,x,x,x,West Ham,x,x
+Man Utd,Man Utd,x,x,x,x,x,x,Chelsea,x,x
+Liverpool,Man City,x,x,x,x,x,x,x,x,x
+Leicester,Everton,x,x,x,x,x,x,x,x,x
+x,+,x,x,x,x,x,x,x,x,x
+---,---,---,---,---,---,---,---,---
+Mat,Jase*,Pia*,Callum,Jon,Frank,Dave,Tim*,Jesus, Todd
+Spurs,Arsenal,Wolves,Man City,Man City,Man City,Spurs,Leeds,Wolves,Chelsea
+Liverpool,West Ham,x,Liverpool,Liverpool,Man Utd,Man City,x,x,West Ham
+x,Man City,x,x,x,Chelsea,Man Utd,x,x,Man City
+x,Chelsea,x,x,x,x,x,x,x,Spurs
+x,+,x,x,x,x,x,x,x,x
+---,---,---,---,---,---,---,---,---
+Mat,Jase*,Pia*,Callum,Jon,Frank,Dave,Tim*,Jesus, Todd
+Man Utd, Man City,Man Utd,Man City,Man City,Man City,Man City,Man City,Man City, Aston Villa
+Liverpool,x,Liverpool,x,x,x,x,x,x,x
+Man City,x,Man City,x,x,x,x,x,x,x
+Spurs,x,Arsenal,x,x,x,x,x,x,x
+Arsenal,x,Spurs,x,x,x,x,x,x,x
+---,---,---,---,---,---,---,---,---
+Mat,Jase*,Pia,Callum,Jon,Frank,Dave,Tim*,Jesus
+Liverpool,Liverpool,Liverpool,x,Spurs,Liverpool,x,Man City,x
+Man City,Man City,Chelsea,x,Chelsea,Spurs,x,x,x
+Chelsea,Spurs,Spurs,x,Arsenal,Chelsea,x,x,x
+Man Utd,Man Utd,Everton,x,x,Man Utd,x,x,x
+Arsenal,Liecester,Man City,x,x,Man City,x,x,x
+x,x,Southampton,x,x,Arsenal,x,x,x
+x,x,+,x,x,x,x,x,x
+---,---,---,---,---,---,---,---,---
+Wolves,Arsenal,Arsenal,Man City,Chelsea,Everton,Arsenal,Leicester,Leicester
+Chelsea,Man Utd,Chelsea,x,Spurs,Spurs,Chelsea,x,x
+x,+,x,x,x,x,x,x,x
+---,---,---,---,---,---,---,---,---
+Arsenal,Liverpool,Liverpool,Liverpool,Liverpool,Chelsea,Liverpool,Chelsea
+Man U,Everton,Everton,Man U,Arsenal,Man U,Arsenal,Everton
+x,Spurs,Spurs,x,Chelsea,x,Chelsea,Man U
+x,x,x,x,x,x,x,+
