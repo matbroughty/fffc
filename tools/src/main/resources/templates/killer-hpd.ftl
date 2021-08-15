@@ -88,13 +88,13 @@
             <tr>
               <th scope="col">Game ${comps}</th>
               <th scope="col">Mat</th>
-              <th scope="col">Jase (<i class="icofont-crown-king"></i><i class="icofont-crown-king"></i><i class="icofont-crown-king"></i>)</th>
-              <th scope="col">Pia (<i class="icofont-crown-king"></i>)</th>
-              <th scope="col">Callum</th>
+              <th scope="col">Jase </i>)</th>
+              <th scope="col">Pia</th>
+              <th scope="col">Sunny</th>
               <th scope="col">Jon</th>
               <th scope="col">Frank</th>
               <th scope="col">Dave</th>
-              <th scope="col">Tim (<i class="icofont-crown-king"></i>)</th>
+              <th scope="col">Tim</i>)</th>
               <th scope="col">Jesus</th>
               <th scope="col">Todd</th>
               <th scope="col">Ash</th>
@@ -138,14 +138,14 @@
                   <td>${round.pia}</td>
                 </#if>
 
-                <#if round.callum == "?">
+                <#if round.sunny == "?">
                   <td><i class="icofont-question-circle"></i></td>
-                <#elseif round.callum?lower_case == "x">
+                <#elseif round.sunny?lower_case == "x">
                   <td><i class="icofont-pistol"></i></td>
-                <#elseif round.callum?lower_case == "+">
+                <#elseif round.sunny?lower_case == "+">
                   <td><i class="icofont-crown-king"></i></td>
                 <#else>
-                  <td>${round.callum}</td>
+                  <td>${round.sunny}</td>
                 </#if>
 
                 <#if round.jon == "?">
