@@ -12,5 +12,5 @@ data class Killer(@CsvBindByPosition(position = 0) val mat: String = "",
                   @CsvBindByPosition(position = 7) val tim: String = "",
                   @CsvBindByPosition(position = 8) val jesus: String = "",
                   @CsvBindByPosition(position = 9) val todd: String = "",
-                  @CsvBindByPosition(position = 10) val ash: String = ""
+                  @CsvBindByPosition(position = 10) val george: String = ""
 )

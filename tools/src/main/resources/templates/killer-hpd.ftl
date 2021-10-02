@@ -97,7 +97,7 @@
               <th scope="col">Tim</i>)</th>
               <th scope="col">Jesus</th>
               <th scope="col">Todd</th>
-              <th scope="col">Ash</th>
+              <th scope="col">George</th>
             </tr>
             </thead>
             <tbody>
@@ -208,14 +208,14 @@
                   <td>${round.todd}</td>
                 </#if>
 
-                <#if round.ash == "?">
+                <#if round.george == "?">
                   <td><i class="icofont-question-circle"></i></td>
-                <#elseif round.ash?lower_case == "x">
+                <#elseif round.george?lower_case == "x">
                   <td><i class="icofont-pistol"></i></td>
-                <#elseif round.ash?lower_case == "+">
+                <#elseif round.george?lower_case == "+">
                   <td><i class="icofont-crown-king"></i></td>
                 <#else>
-                  <td>${round.ash}</td>
+                  <td>${round.george}</td>
                 </#if>
 
               </tr>
