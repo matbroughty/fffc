@@ -88,13 +88,13 @@
             <tr>
               <th scope="col">Game ${comps}</th>
               <th scope="col">Mat</th>
-              <th scope="col">Jase </i>)</th>
+              <th scope="col">Jase</th>
               <th scope="col">Pia</th>
               <th scope="col">Sunny</th>
               <th scope="col">Jon</th>
               <th scope="col">Frank</th>
               <th scope="col">Dave</th>
-              <th scope="col">Tim</i>)</th>
+              <th scope="col">Tim</th>
               <th scope="col">Jesus</th>
               <th scope="col">Todd</th>
               <th scope="col">George</th>
