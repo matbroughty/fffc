@@ -98,6 +98,7 @@
               <th scope="col">Jesus</th>
               <th scope="col">Todd</th>
               <th scope="col">George</th>
+              <th scope="col">Erik</th>
             </tr>
             </thead>
             <tbody>
@@ -217,6 +218,17 @@
                 <#else>
                   <td>${round.george}</td>
                 </#if>
+
+                <#if round.erik == "?">
+                  <td><i class="icofont-question-circle"></i></td>
+                <#elseif round.erik?lower_case == "x">
+                  <td><i class="icofont-pistol"></i></td>
+                <#elseif round.erik?lower_case == "+">
+                  <td><i class="icofont-crown-king"></i></td>
+                <#else>
+                  <td>${round.erik}</td>
+                </#if>
+
 
               </tr>
               <#assign count = count + 1>
