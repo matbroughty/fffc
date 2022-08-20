@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Prem Killer HPD - 21/22</title>
+  <title>Prem Killer HPD - 22/23</title>
   <meta content="" name="Prem Killer Standings = HPD">
   <meta content="" name="prem, killer, broughton, hpd">
 
@@ -24,7 +24,7 @@
   <link href="css/main.css" rel="stylesheet">
 
   <meta property="og:site_name" content="Premiership Killer">
-  <meta property="og:title" content="Prem Killer 2020/21"/>
+  <meta property="og:title" content="Prem Killer 2022/23"/>
   <meta property="og:description" content="Prem Killer Competition"/>
   <meta property="og:image" itemprop="image"
         content="https://images.unsplash.com/photo-1521019338804-f9544ddb91d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
@@ -90,12 +90,12 @@
               <th scope="col">Mat</th>
               <th scope="col">Jase</th>
               <th scope="col">Pia</th>
-              <th scope="col">Sunny</th>
+<#--              <th scope="col">Sunny</th>-->
               <th scope="col">Jon</th>
               <th scope="col">Frank</th>
-              <th scope="col">Dave</th>
+<#--              <th scope="col">Dave</th>-->
               <th scope="col">Tim</th>
-              <th scope="col">Jesus</th>
+<#--              <th scope="col">Jesus</th>-->
               <th scope="col">Todd</th>
               <th scope="col">George</th>
               <th scope="col">Erik</th>
@@ -139,15 +139,15 @@
                   <td>${round.pia}</td>
                 </#if>
 
-                <#if round.sunny == "?">
-                  <td><i class="icofont-question-circle"></i></td>
-                <#elseif round.sunny?lower_case == "x">
-                  <td><i class="icofont-pistol"></i></td>
-                <#elseif round.sunny?lower_case == "+">
-                  <td><i class="icofont-crown-king"></i></td>
-                <#else>
-                  <td>${round.sunny}</td>
-                </#if>
+<#--                <#if round.sunny == "?">-->
+<#--                  <td><i class="icofont-question-circle"></i></td>-->
+<#--                <#elseif round.sunny?lower_case == "x">-->
+<#--                  <td><i class="icofont-pistol"></i></td>-->
+<#--                <#elseif round.sunny?lower_case == "+">-->
+<#--                  <td><i class="icofont-crown-king"></i></td>-->
+<#--                <#else>-->
+<#--                  <td>${round.sunny}</td>-->
+<#--                </#if>-->
 
                 <#if round.jon == "?">
                   <td><i class="icofont-question-circle"></i></td>
@@ -169,15 +169,15 @@
                   <td>${round.frank}</td>
                 </#if>
 
-                <#if round.dave == "?">
-                  <td><i class="icofont-question-circle"></i></td>
-                <#elseif round.dave?lower_case == "x">
-                  <td><i class="icofont-pistol"></i></td>
-                <#elseif round.dave?lower_case == "+">
-                  <td><i class="icofont-crown-king"></i></td>
-                <#else>
-                  <td>${round.dave}</td>
-                </#if>
+<#--                <#if round.dave == "?">-->
+<#--                  <td><i class="icofont-question-circle"></i></td>-->
+<#--                <#elseif round.dave?lower_case == "x">-->
+<#--                  <td><i class="icofont-pistol"></i></td>-->
+<#--                <#elseif round.dave?lower_case == "+">-->
+<#--                  <td><i class="icofont-crown-king"></i></td>-->
+<#--                <#else>-->
+<#--                  <td>${round.dave}</td>-->
+<#--                </#if>-->
 
                 <#if round.tim == "?">
                   <td><i class="icofont-question-circle"></i></td>
@@ -189,15 +189,15 @@
                   <td>${round.tim}</td>
                 </#if>
 
-                <#if round.jesus == "?">
-                  <td><i class="icofont-question-circle"></i></td>
-                <#elseif round.jesus?lower_case == "x">
-                  <td><i class="icofont-pistol"></i></td>
-                <#elseif round.jesus?lower_case == "+">
-                  <td><i class="icofont-crown-king"></i></td>
-                <#else>
-                  <td>${round.jesus}</td>
-                </#if>
+<#--                <#if round.jesus == "?">-->
+<#--                  <td><i class="icofont-question-circle"></i></td>-->
+<#--                <#elseif round.jesus?lower_case == "x">-->
+<#--                  <td><i class="icofont-pistol"></i></td>-->
+<#--                <#elseif round.jesus?lower_case == "+">-->
+<#--                  <td><i class="icofont-crown-king"></i></td>-->
+<#--                <#else>-->
+<#--                  <td>${round.jesus}</td>-->
+<#--                </#if>-->
 
                 <#if round.todd == "?">
                   <td><i class="icofont-question-circle"></i></td>
