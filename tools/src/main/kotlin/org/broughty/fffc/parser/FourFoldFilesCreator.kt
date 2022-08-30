@@ -2,6 +2,7 @@ package org.broughty.fffc.parser
 
 import com.opencsv.bean.CsvToBeanBuilder
 import org.broughty.fffc.parser.model.FourFold
+import org.broughty.fffc.parser.model.FourFoldKent
 import org.slf4j.LoggerFactory
 import java.io.*
 
@@ -20,7 +21,15 @@ class FourFoldFilesCreator {
     val totals = rounds.reduce{ acc, t -> t.add(acc) as T }
     logger.info("Total for FF $totals")
     totals.roundWinnings().forEach { logger.info("Ordered ${it.first} has ${it.second} ") }
-    val input: Map<String, Any> = mapOf(Pair("totals", totals.roundWinnings()), Pair("rounds", rounds))
+
+    val simplifiedListMap = rounds.map { l -> l.roundWinnings() }
+
+    val input: Map<String, Any> = mapOf(
+      Pair("totals", totals.roundWinnings()),
+      Pair("rounds", rounds),
+      Pair("simpleRounds", simplifiedListMap)
+    )
+
     val htmlStr = StringWriter()
     template.process(input, htmlStr)
     logger.debug("Four Fold html {}", htmlStr)

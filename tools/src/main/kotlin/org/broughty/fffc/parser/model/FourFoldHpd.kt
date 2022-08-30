@@ -19,6 +19,7 @@ data class FourFoldHpd(@CsvBindByPosition(position = 0) val mat: BigDecimal = Bi
     return FourFoldHpd()
   }
 
+
   override fun roundWinnings(): List<Pair<String, BigDecimal>> {
     return listOf(Pair("mat", mat), Pair("jase", jase), Pair("frank", frank), Pair("gez", gez)).sortedBy { n -> n.second }.asReversed()
   }

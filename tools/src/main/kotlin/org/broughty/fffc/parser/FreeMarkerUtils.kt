@@ -6,7 +6,7 @@ import freemarker.template.TemplateExceptionHandler
 import freemarker.template.Version
 import java.util.*
 
-const val FOUR_FOLD_KENT_FTL = "four-fold-kent.ftl"
+const val FOUR_FOLD_KENT_FTL = "four-fold.ftl"
 const val FOUR_FOLD_HPD_FTL = "four-fold-hpd.ftl"
 const val KILLER_HPD_FTL = "killer-hpd.ftl"
 
