@@ -10,14 +10,14 @@ data class FourFoldKent(@CsvBindByPosition(position = 0) val dan: BigDecimal = B
                         @CsvBindByPosition(position = 4) val frank: BigDecimal = BigDecimal.ZERO,
                         @CsvBindByPosition(position = 5) val jase: BigDecimal = BigDecimal.ZERO,
                         @CsvBindByPosition(position = 6) val ash: BigDecimal = BigDecimal.ZERO
-                        ) : FourFold{
+) : FourFold {
 
   override fun add(ff: FourFold): FourFold {
-    if(ff is FourFoldKent){
+    if (ff is FourFoldKent) {
       return FourFoldKent(
-        dan.plus(ff.dan) ,
+        dan.plus(ff.dan),
         mat.plus(ff.mat),
-        paulS.plus(ff.paulS) ,
+        paulS.plus(ff.paulS),
         paulV.plus(ff.paulV),
         frank.plus(ff.frank),
         jase.plus(ff.jase),
@@ -27,11 +27,11 @@ data class FourFoldKent(@CsvBindByPosition(position = 0) val dan: BigDecimal = B
   }
 
   fun countWins(ff: FourFold): FourFold {
-    if(ff is FourFoldKent){
+    if (ff is FourFoldKent) {
       return FourFoldKent(
-        dan.plus(if (ff.dan > BigDecimal.ZERO) BigDecimal.ONE else BigDecimal.ZERO) ,
+        dan.plus(if (ff.dan > BigDecimal.ZERO) BigDecimal.ONE else BigDecimal.ZERO),
         mat.plus(if (ff.mat > BigDecimal.ZERO) BigDecimal.ONE else BigDecimal.ZERO),
-        paulS.plus(if (ff.paulS > BigDecimal.ZERO) BigDecimal.ONE else BigDecimal.ZERO) ,
+        paulS.plus(if (ff.paulS > BigDecimal.ZERO) BigDecimal.ONE else BigDecimal.ZERO),
         paulV.plus(if (ff.paulV > BigDecimal.ZERO) BigDecimal.ONE else BigDecimal.ZERO),
         frank.plus(if (ff.frank > BigDecimal.ZERO) BigDecimal.ONE else BigDecimal.ZERO),
         jase.plus(if (ff.jase > BigDecimal.ZERO) BigDecimal.ONE else BigDecimal.ZERO),
@@ -53,8 +53,15 @@ data class FourFoldKent(@CsvBindByPosition(position = 0) val dan: BigDecimal = B
   }
 
 
-
-
-
-
+  override fun countWinners(): Int {
+    var count: Int = 0
+    if (mat > BigDecimal.ZERO) count++
+    if (dan > BigDecimal.ZERO) count++
+    if (paulS > BigDecimal.ZERO) count++
+    if (paulV > BigDecimal.ZERO) count++
+    if (frank > BigDecimal.ZERO) count++
+    if (jase > BigDecimal.ZERO) count++
+    if (ash > BigDecimal.ZERO) count++
+    return count
+  }
 }

@@ -5,6 +5,7 @@ import org.broughty.fffc.parser.model.FourFold
 import org.broughty.fffc.parser.model.FourFoldKent
 import org.slf4j.LoggerFactory
 import java.io.*
+import java.math.BigDecimal
 
 class FourFoldFilesCreator {
 
@@ -24,10 +25,17 @@ class FourFoldFilesCreator {
 
     val simplifiedListMap = rounds.map { l -> l.roundWinnings() }
 
+    val sum = totals.roundWinnings().map { p -> p.second }.fold(BigDecimal.ZERO, BigDecimal::add)
+
+    val totalWins = rounds.map { it.countWinners()}.sum()
+
     val input: Map<String, Any> = mapOf(
       Pair("totals", totals.roundWinnings()),
       Pair("rounds", rounds),
-      Pair("simpleRounds", simplifiedListMap)
+      Pair("simpleRounds", simplifiedListMap),
+      Pair("totalSum", sum),
+      Pair("totalRounds", rounds.size),
+      Pair("totalWins",totalWins)
     )
 
     val htmlStr = StringWriter()

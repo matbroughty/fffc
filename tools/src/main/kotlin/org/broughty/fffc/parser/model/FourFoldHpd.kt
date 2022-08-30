@@ -24,4 +24,7 @@ data class FourFoldHpd(@CsvBindByPosition(position = 0) val mat: BigDecimal = Bi
     return listOf(Pair("mat", mat), Pair("jase", jase), Pair("frank", frank), Pair("gez", gez)).sortedBy { n -> n.second }.asReversed()
   }
 
+  override fun countWinners(): Int {
+    TODO("Not yet implemented")
+  }
 }

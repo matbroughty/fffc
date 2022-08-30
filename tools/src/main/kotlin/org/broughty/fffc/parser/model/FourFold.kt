@@ -14,4 +14,6 @@ interface FourFold{
    */
   fun roundWinnings() : List<Pair<String, BigDecimal>>
 
+  fun countWinners() : Int
+
 }

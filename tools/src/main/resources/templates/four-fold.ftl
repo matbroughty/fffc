@@ -19,9 +19,43 @@
 
 </head>
 <body>
+
 <section class="section">
+
+  <section class="hero">
+    <div class="hero-body">
+      <p class="title">
+        Four Fold Footy
+      </p>
+      <p class="subtitle">
+        2022 - 2023 Season
+      </p>
+    </div>
+  </section>
+
+  <nav class="level">
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Total Winnings</p>
+        <p class="title">${totalSum}</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Number of Rounds</p>
+        <p class="title">${totalRounds}</p>
+      </div>
+    </div>
+    <div class="level-item has-text-centered">
+      <div>
+        <p class="heading">Total Wins</p>
+        <p class="title">${totalWins}</p>
+      </div>
+    </div>
+  </nav>
+
   <div class="table-container">
-    <table class="table">
+    <table class="table is-fullwidth">
       <!-- Your table content -->
 
       <thead>
@@ -265,5 +299,14 @@
     </table>
   </div>
 </section>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Four Fold</strong> run by <a href="https://matbroughton.com">Mat Broughton</a>.
+    </p>
+  </div>
+</footer>
+
 </body>
 </html>
