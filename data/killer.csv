@@ -1,6 +1,8 @@
 Mat,Jase,Pia,Jon,Frank,Tim,Todd,George,Erik
+Chelsea,Forest,?,Man City,Chelsea,Brighton,Brighton,Spurs
+---,---,---,---,---,---,---,---,---,---,---,---
 Man City,Man City,Man City,Man City,Arsenal,Arsenal,Man City,Man City,Liverpool
 Arsenal,Liecester,Arsenal,Arsenal,Spurs,Chelsea,Spurs,Arsenal,x
 Liverpool,x,Liverpool,Liverpool,Chelsea,x,Liverpool,Newcastle,x
 Palace,x,Chelsea,Chelsea,Liverpool,x,Leicester,x,x
-x,x,x,x,?,x,?,x,x
+x,x,x,x,+,x,x,x,x
