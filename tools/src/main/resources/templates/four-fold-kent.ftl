@@ -87,7 +87,7 @@
           <th scope="col">Paul V</th>
           <th scope="col">Frank</th>
           <th scope="col">Jase</th>
-          <th scope="col">Ash</th>
+          <th scope="col">Ash*</th>
         </tr>
         </thead>
         <tbody>

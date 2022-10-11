@@ -305,6 +305,10 @@
     <p>
       <strong>Four Fold</strong> run by <a href="https://matbroughton.com">Mat Broughton</a>.
     </p>
+     <p>
+       <strong>*</strong> chooses games not in super 6 round!.
+     </p>
+
   </div>
 </footer>
 
