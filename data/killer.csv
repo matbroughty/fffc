@@ -1,7 +1,8 @@
 Mat,Jase,Pia,Jon,Frank,Tim,Todd,George,Erik
 Man U,Newcastle,Man City,Brentford,Newcastle,Newcastle,Brentford,Man City,Brighton
 Liverpool,Man City,Brighton,Man City,Liverpool,Spurs,Liverpool,Brighton,Spurs
-Man City,?,x,Man Utd,Man Utd,Man City,?,x,Man Utd
+Man City,Southampton,x,Man Utd,Man Utd,Man City,Arsenal,x,Man Utd
+?,x,x,?,?,?,x,x,?
 ---,---,---,---,---,---,---,---,---,---,---,---
 Arsenal,Aston Villa,Newcastle,Arsenal,Arsenal,Liverpool(Southampton),Arsenal,Newcastle,Chelsea
 Man City,Southampton,Arsenal,Chelsea,Chelsea,x,Southampton,Arsenal,x
