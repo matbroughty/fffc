@@ -49,7 +49,7 @@ data class FourFoldKent(@CsvBindByPosition(position = 0) val dan: BigDecimal = B
       Pair("paulV", paulV),
       Pair("frank", frank),
       Pair("jase", jase),
-      Pair("ash*", ash)).sortedBy { n -> n.second }.asReversed()
+      Pair("ash", ash)).sortedBy { n -> n.second }.asReversed()
   }
 
 
