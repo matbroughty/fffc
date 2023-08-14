@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Four Fold Footy - 22/23</title>
+  <title>Four Fold Footy - 23/24</title>
   <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
   <meta content="" name="Four Fold Standings">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -28,7 +28,7 @@
         Four Fold Footy
       </p>
       <p class="subtitle">
-        2022 - 2023 Season
+        2023 - 2024 Season
       </p>
     </div>
   </section>
@@ -305,9 +305,6 @@
     <p>
       <strong>Four Fold</strong> run by <a href="https://matbroughton.com">Mat Broughton</a>.
     </p>
-     <p>
-       <strong>*</strong> chooses games not in super 6 round!.
-     </p>
 
   </div>
 </footer>
