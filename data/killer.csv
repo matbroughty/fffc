@@ -1,9 +1,14 @@
 Mat,Jase,Pia,Jon,Frank,Tim,Todd,George,Erik
+Arsenal,Chelsea,Man City,Chelsea,Chelsea,Brighton,Man City,Chelsea,Man Utd
+x,?,?,?,?,x,?,?,?
+---,---,---,---,---,---,---,---,---,---,---,---
 Man U,Newcastle,Man City,Brentford,Newcastle,Newcastle,Brentford,Man City,Brighton
 Liverpool,Man City,Brighton,Man City,Liverpool,Spurs,Liverpool,Brighton,Spurs
 Man City,Southampton,x,Man Utd,Man Utd,Man City,Arsenal,x,Man Utd
 Brighton,x,x,Brighton,Southampton,Liverpool,x,x,Man City
 Arsenal,x,x,Arsenal,x,x,x,x,x
+Chelsea,x,x,Liverpool,x,x,x,x,x
+x,x,x,+,x,x,x,x,x
 ---,---,---,---,---,---,---,---,---,---,---,---
 Arsenal,Aston Villa,Newcastle,Arsenal,Arsenal,Liverpool(Southampton),Arsenal,Newcastle,Chelsea
 Man City,Southampton,Arsenal,Chelsea,Chelsea,x,Southampton,Arsenal,x
