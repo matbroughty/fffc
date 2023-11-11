@@ -1,4 +1,6 @@
 Mat,Jase,Pia,Jon,Frank,Tim,Todd,George,Erik
+Man Utd,Brighton,Brighton,Arsenal,Man Utd,Arsenal,Arsenal,Arsenal,Man Utd
+---,---,---,---,---,---,---,---,---,---,---,---
 Arsenal,Chelsea,Man City,Chelsea,Chelsea,Brighton,Man City,Chelsea,Man Utd
 x,Man City,Chelsea,West Ham,West Ham,x,Chelsea,Chelsea,Brentford
 x,Spurs,x,Liverpool,Spurs,x,x,x,x
@@ -7,6 +9,8 @@ x,Everton,x,Arsenal,Newcastle,x,x,x,x
 x,x,x,Spurs,Man Utd,x,x,x,x
 x,x,x,Man Utd,Liverpool,x,x,x,x
 x,x,x,Aston Villa,Arsenal,x,x,x,x
+x,x,x,Wolves,Brentford,x,x,x,x
+x,x,x,x,+,x,x,x,x
 ---,---,---,---,---,---,---,---,---,---,---,---
 Man U,Newcastle,Man City,Brentford,Newcastle,Newcastle,Brentford,Man City,Brighton
 Liverpool,Man City,Brighton,Man City,Liverpool,Spurs,Liverpool,Brighton,Spurs
