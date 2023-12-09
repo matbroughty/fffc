@@ -100,6 +100,7 @@
               <th scope="col">George</th>
               <th scope="col">Erik</th>
               <th scope="col">Dave</th>
+              <th scope="col">Matt</th>
             </tr>
             </thead>
             <tbody>
@@ -238,6 +239,16 @@
                     <td><i class="icofont-crown-king"></i></td>
                   <#else>
                     <td>${round.dave}</td>
+                  </#if>
+
+                  <#if round.matt== "?">
+                    <td><i class="icofont-question-circle"></i></td>
+                  <#elseif round.matt?lower_case == "x">
+                    <td><i class="icofont-pistol"></i></td>
+                  <#elseif round.matt?lower_case == "+">
+                    <td><i class="icofont-crown-king"></i></td>
+                  <#else>
+                    <td>${round.matt}</td>
                   </#if>
 
 
