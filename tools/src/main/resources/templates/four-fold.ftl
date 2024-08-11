@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Four Fold Footy - 23/24</title>
+  <title>Four Fold Footy - 24/25</title>
   <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
   <meta content="" name="Four Fold Standings">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -28,7 +28,7 @@
         Four Fold Footy
       </p>
       <p class="subtitle">
-        2023 - 2024 Season
+        2024 - 2025 Season
       </p>
     </div>
   </section>
