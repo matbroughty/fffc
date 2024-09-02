@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Four Fold Footy Kent - 23/24</title>
+  <title>Four Fold Footy Kent - 24/25</title>
   <meta content="" name="Four Fold Standings">
   <meta content="" name="four fold, broughton, kent">
 
@@ -52,7 +52,7 @@
   <div class="container d-flex flex-column align-items-center">
 
     <h1>Four Fold Footy</h1>
-    <h2>2023/2024 Season</h2>
+    <h2>2024/2025 Season</h2>
 
   </div>
 </header><!-- End #header -->
