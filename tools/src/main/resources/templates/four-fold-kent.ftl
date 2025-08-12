@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Four Fold Footy Kent - 24/25</title>
+  <title>Four Fold Footy Kent - 25/26</title>
   <meta content="" name="Four Fold Standings">
   <meta content="" name="four fold, broughton, kent">
 
@@ -24,7 +24,7 @@
   <link href="css/main.css" rel="stylesheet">
 
   <meta property="og:site_name" content="Four Fold">
-  <meta property="og:title" content="Four Fold 2023/24"/>
+  <meta property="og:title" content="Four Fold 2025/26"/>
   <meta property="og:description" content="Four Fold Competition"/>
   <meta property="og:image" itemprop="image"
         content="https://images.unsplash.com/photo-1521019338804-f9544ddb91d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
@@ -52,7 +52,7 @@
   <div class="container d-flex flex-column align-items-center">
 
     <h1>Four Fold Footy</h1>
-    <h2>2024/2025 Season</h2>
+    <h2>2025/2026 Season</h2>
 
   </div>
 </header><!-- End #header -->
